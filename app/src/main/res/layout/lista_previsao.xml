@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dia" />
+
+        <TextView
+            android:id="@+id/tv_diadasemana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dia da semana" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_descricao"
+        android:layout_width="165dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Descrição"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_max"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Máxima"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:id="@+id/tv_min"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mínima"
+            android:textAlignment="textEnd" />
+    </LinearLayout>
+
+</LinearLayout>
